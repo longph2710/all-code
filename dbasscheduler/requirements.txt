@@ -1,0 +1,12 @@
+django
+django-rest-framework
+redis
+python-redis-lock
+requests
+apscheduler
+django-apscheduler
+python-dotenv
+django-dotenv
+mysqlclient==2.0.1
+celery
+django-celery-results

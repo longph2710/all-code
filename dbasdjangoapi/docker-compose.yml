@@ -1,0 +1,18 @@
+version: "3.9"
+   
+services:
+  # 172.18.0.4
+  web:
+    container_name: dbservice
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    networks:
+      servicenet:
+        ipv4_address: 172.28.0.4
+networks:
+  servicenet:
+    external: true

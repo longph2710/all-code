@@ -1,0 +1,6 @@
+django
+requests
+mysqlclient==2.0.1
+django-rest-framework
+python-dotenv
+django-dotenv

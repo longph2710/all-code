@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS 'dbservice';
+CREATE TABLE IF NOT EXISTS 'scheduleservice';
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
